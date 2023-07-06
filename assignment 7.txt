@@ -1,0 +1,66 @@
+ANSWER 1:-
+keyword in python are reserved and predefined that cannot be used as ordinary identifiers .
+import keyword
+print(keyword.kwlist)
+
+ANSWER2:-
+A variable name must start with a letter or the underscore character.
+A variable name cannot start with a number.
+A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+Variable names are case-sensitive
+
+ANSWER 3:-
+Instance variable names should follow the lowercase convention. Have the underscore as a separator while naming a multi-word instance variable. 
+Begin a non-public instance variable name with a single underscore. Use two consecutive underscores at the beginning of an instance variable.
+
+ANSWER 4:-
+it will create an eroor and confusion We cannot use a keyword as a variable name, function name, or any other identifier. 
+They are used to define the syntax and structure of the Python language. 
+All the keywords except True , False and None are in lowercase and they must be written as they are.
+
+ANSWER 5:-
+def keyword is used to define function.
+
+ANSWER 6:-
+it is table operator to bring rest of the value to the next line.
+
+ANSWER 7:-
+homogeneous list:- means the values inside of list are of same data type.
+heterogeneous sets:-Python sets can store heterogeneous element in it a set can store a mixture of string, integer, boolean.
+Heterogeneous tuple: Tuples are a sequence of data of different data types (like integer, float, list, string, etc;) and can be accessed 
+through indexing and slicing
+
+ANSWER 8:-
+mutuable means we can do some changes after creating a particular list like
+l=[1,2,3]
+l[0]=5
+print(l)
+
+immutuable means we cannot do some changes with respect that particular list.
+t=(1,2,3)
+t[0]=4
+it will generate error
+
+ANSWER 9:-
+n = int(input("Enter the number of rows"))
+for r in range(n):
+     for j in range(r,n):
+	    print(" ",end="")
+     for j in range(r):
+	    print("*",end="" )
+     for j in range(r+1):
+	    print("*",end="")
+     print()
+
+ANSWER 10:-
+n = int(input("Enter the number of rows"))
+for r in range(n):
+     for j in range(r+1):
+	    print(" ",end="")
+     for j in range(r,n-1):
+	    print("|",end="" )
+     for j in range(r,n):
+	    print("|",end="")
+     print()
+ 		
+	
